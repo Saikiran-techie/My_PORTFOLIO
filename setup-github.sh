@@ -12,7 +12,7 @@ git commit -m "Initial commit: Professional Portfolio Website"
 # Instructions for setting up remote repository
 echo "Now, create a repository on GitHub named 'my-portfolio'"
 echo "Then run the following commands:"
-echo "git remote add origin https://github.com/yourusername/my-portfolio.git"
+echo "git remote add origin https://github.com/Saikiran-techie/My_PORTFOLIO.git"
 echo "git branch -M main"
 echo "git push -u origin main"
 echo "After that, you can deploy to GitHub Pages with: npm run deploy"
