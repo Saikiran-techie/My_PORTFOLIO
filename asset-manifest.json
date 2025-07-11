@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/My_PORTFOLIO/static/css/main.82a22234.css",
+    "main.js": "/My_PORTFOLIO/static/js/main.a68baf16.js",
+    "static/js/453.acca0757.chunk.js": "/My_PORTFOLIO/static/js/453.acca0757.chunk.js",
+    "static/media/Restaurant.png": "/My_PORTFOLIO/static/media/Restaurant.3c96c67b0f003684c6e3.png",
+    "static/media/TaskMate.png": "/My_PORTFOLIO/static/media/TaskMate.25f57a6ca79a26898706.png",
+    "static/media/Sai_Profile.jpg": "/My_PORTFOLIO/static/media/Sai_Profile.4ab3c6595891ed3210e8.jpg",
+    "static/media/MediConnectHospital.png": "/My_PORTFOLIO/static/media/MediConnectHospital.185cabaeb13113cbe6fc.png",
+    "static/media/TinDog.png": "/My_PORTFOLIO/static/media/TinDog.7d96e149ea55bf2163d0.png",
+    "index.html": "/My_PORTFOLIO/index.html",
+    "main.82a22234.css.map": "/My_PORTFOLIO/static/css/main.82a22234.css.map",
+    "main.a68baf16.js.map": "/My_PORTFOLIO/static/js/main.a68baf16.js.map",
+    "453.acca0757.chunk.js.map": "/My_PORTFOLIO/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82a22234.css",
+    "static/js/main.a68baf16.js"
+  ]
+}
