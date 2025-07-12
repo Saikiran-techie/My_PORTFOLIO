@@ -23,12 +23,12 @@ const Certificates = () => {
     },
     {
       id: 3,
-      name: 'SQL and Relational Database',
-      issuer: 'IBM Developer Skills Network',
+      name: 'SQL and Relational Databases',
+      issuer: 'Cognitive Class powered by IBM Developer Skills Network',
       date: 'Mar 2024',
       description: 'Course on SQL database design, normalization, optimization, and best practices.',
-      credential: 'LL-7890123456',
-      link: 'https://example.com/certificate5'
+      credential: '3f3620d179e94e7ebcdc09f6e1726edd',
+      link: 'https://drive.google.com/file/d/197D13Cl-5UBPQ5QLhjiqXG8gCw2926_F/view?usp=sharing'
     },
     // {
     //   id: 4,
