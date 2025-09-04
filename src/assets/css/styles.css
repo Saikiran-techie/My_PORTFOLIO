@@ -91,7 +91,7 @@ section {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: linear-gradient(rgba(45, 53, 69, 0.7), rgba(45, 53, 69, 1.2)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1500&q=80') center center no-repeat;
+  background: linear-gradient(rgba(28, 28, 28, 0.8), rgba(45, 53, 69, 1.2)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1500&q=80') center center no-repeat;
   background-size: cover;
   color: var(--white-color);
   display: flex;
@@ -133,10 +133,10 @@ section {
   background-color: var(--light-color);
 }
 
-.about-image-container {
+/* .about-image-container {
   position: relative;
   padding: 20px;
-}
+} */
 
 .about-content h3 {
   font-size: 28px;
@@ -245,7 +245,7 @@ section {
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   position: relative;
-  margin-left: 20px;
+  /* margin-left: 5px; */
 }
 
 .timeline-item::before {
@@ -255,13 +255,14 @@ section {
   height: 15px;
   border-radius: 50%;
   background-color: var(--primary-color);
-  left: -9px;
-  top: 20px;
+  left: 10px;
+  top: 18px;
 }
 
 .timeline-title {
   font-size: 18px;
   font-weight: 700;
+  margin-left: 25px;
   margin-bottom: 5px;
 }
 
@@ -392,6 +393,33 @@ section {
 .social-icon:hover {
   color: var(--secondary-color);
   transform: translateY(-3px);
+}
+
+/* ✅ Ensure toast is always visible */
+/* Ensures toast container stays on top of everything */
+.toast-container {
+  position: fixed !important;
+  top: 1rem;
+  right: 1rem;
+  z-index: 2000 !important;
+}
+
+/* Make the toast visually appealing */
+.toast {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  color: #fff !important;
+  font-size: 0.95rem;
+}
+
+/* Success (green) and error (red) colors */
+.toast.bg-success {
+  background-color: #28a745 !important;
+}
+
+.toast.bg-danger {
+  background-color: #dc3545 !important;
 }
 
 /* Footer */

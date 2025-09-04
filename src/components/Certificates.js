@@ -8,7 +8,7 @@ const Certificates = () => {
       name: 'Ericsson',
       issuer: 'ERICSSON INDIA GLOBAL SERVICES PRIVATE LIMITED',
       date: 'Oct 2023',
-      description: 'Successfully completed a domain internship with Ericsson’s DS RAN team, contributing to the MBNL - HARDY Project. Focused on network optimization, drive test log analysis, and performance reporting to improve overall network reliability.',
+      description: 'Successfully completed a Web Development internship with Ericsson’s DS RAN team, contributing to the MBNL - HARDY Project. Gained hands-on experience in building responsive web applications and internal tools to enhance network operations.',
       credential: 'EGIL/HR-4985',
       link: 'https://drive.google.com/file/d/1C6Cj9uoFiXsg9d04CL_4DbCoydgs00fZ/view?usp=sharing'
     },

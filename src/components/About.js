@@ -20,7 +20,7 @@ const About = () => {
               />
             </div>
           </Col> */}
-          <Col md={7}>
+          <Col md={6}>
             <div className="about-content">
               <h3 className="mb-3">I'm <span className="highlight">Saikiran Paladi</span></h3>
               <h4 className="mb-3">Java Full Stack Developer</h4>
@@ -36,7 +36,7 @@ const About = () => {
               </p>
             </div>
           </Col>
-          <Col md={5} className="personal-info mt-4 mb-4 mb-md-0">
+          <Col md={6} className="personal-info mt-4 mb-4 mb-md-0">
             <div className="personal-info mt-4">
               <Row>
                 <Col md={6}>
@@ -47,7 +47,7 @@ const About = () => {
                 <Col md={6}>
                   <p><strong>Degree:</strong> Bachelor of Technology (B.Tech)</p>
                   <p><strong>Phone:</strong> +91 837 474 5738</p>
-                  {/* <p><strong>Freelance:</strong> Available</p> */}
+                  <p><strong>Freelance:</strong> Available</p>
                 </Col>
               </Row>
             </div>
@@ -59,7 +59,7 @@ const About = () => {
                 Hire Me
               </a>
               <a
-                href="https://drive.google.com/file/d/1j7mX6ph0U3GqErCB0t5rEe_B_DGr3LfG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Q3X8AimyyFiZUq3bNrIMvZ72mLdaSjW4/view?usp=sharing"
                 className="btn btn-outline-primary"
                 target="_blank"
                 rel="noopener noreferrer"

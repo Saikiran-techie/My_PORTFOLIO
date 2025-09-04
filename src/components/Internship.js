@@ -5,18 +5,17 @@ const Internship = () => {
   const internships = [
     {
       id: 1,
-      position: 'Domain Support Engineer',
+      position: 'Web Development Intern',
       company: 'ERICSSON INDIA GLOBAL SERVICES PRIVATE LIMITED',
       location: 'Bangalore, Karnataka',
       period: 'March 2023 - Sept 2023',
       description: [
-        'Collaborated with Ericsson’s DS RAN (Radio Access Network) team on the MBNL-HARDY Project, focusing on multi-technology network optimization and radio network performance improvement for both urban and rural telecom clusters in the UK region.',
-        'Applied expertise in 2G, 3G, 4G, and 5G technologies to enhance network performance, resulting in a 15% improvement in data throughput and call quality.',
-        'Worked closely with multi-vendor teams and cross-functional groups in a real-time network operations environment, developing strong teamwork, problem-solving, and technical reporting skills.',
-        'Documented network architecture enhancements and procedural updates, supporting knowledge transfer and improving team efficiency by 20 % in project execution timelines.',
-        'Assisted in RAN data analysis using Ericsson OSS tools (ENM, KPI Viewer, CNA Tool) and prepared daily and weekly network performance reports for internal stakeholders and MBNL client teams.'
+        'Designed and developed internal web tools to support operational workflows and data visualization, improving internal team productivity by 20 %.',
+        'Built responsive web interfaces using HTML, CSS, JavaScript, and Bootstrap, ensuring cross-device compatibility and performance.',
+        'Integrated Firebase for real-time data syncing and secure authentication across platforms.',
+        'Collaborated with cross-functional teams to automate project tracking dashboards, reducing manual reporting time by 30%.'
       ],
-      technologies: ['Telecommunications Networks (2G/3G/4G/5G)', '5G Network Architecture & Use Cases', 'Ericsson ENM (Ericsson Network Manager)', 'OSS KPIs Monitoring Tools (CNA Tool, KPI Viewer)', 'Neighbor cell list optimization']
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React.js', 'MySql']
     },
     // {
     //   id: 1,
@@ -71,14 +70,14 @@ const Internship = () => {
                   <h5 className="internship-company mb-1">{internship.company}</h5>
                   <p className="internship-location mb-3">{internship.location}</p>
 
-                  <h6 className="mb-2">Responsibilities:</h6>
+                  <h5 className="mb-2">Responsibilities:</h5>
                   <ul className="internship-responsibilities">
                     {internship.description.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
                   </ul>
 
-                  <h6 className="mb-2">Technologies Used:</h6>
+                  <h5 className="mb-2">Technologies Used:</h5>
                   <div className="technologies mb-2">
                     {internship.technologies.map((tech, index) => (
                       <span className="badge bg-primary me-2 mb-1" key={index}>
